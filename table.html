@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+    .box{
+        width: 600px;
+        height: auto;
+        margin:0 auto;
+        border:1px solid #f6f6f6;
+        margin-top: 20px;
+        padding:5px;
+    }
+    button{
+        background-color: rgba(43, 170, 255, 0.38);
+       outline: none;
+        margin:0 auto;
+        display: block;
+       padding:5px;
+        width: 50px;
+        border: none;
+        color:#fff;
+    }
+    table{
+        width: 600px;
+        height: auto;
+        margin: 0 auto;
+        /*margin-top: 20px;*/
+        padding:10px;
+    }
+    tr{
+        text-align: center;
+    }
+    tr:nth-last-of-type(2n){
+        background-color: rgba(137, 229, 255, 0.42);
+    }
+    tr:nth-last-of-type(2n+1){
+        background-color: rgba(181, 194, 228, 0.68);
+    }
+    tr>th{
+        padding:5px;
+    }
+    tr>td{
+        padding:10px;
+    }
+
+</style>
+<body>
+    <div class="box">
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>籍贯</th>
+                <th>电话</th>
+                <th>操作</th>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>太原</td>
+                <td>12435</td>
+                <td class="del"><button>删除</button></td>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>太原</td>
+                <td>12435</td>
+                <td class="del"><button>删除</button></td>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>太原</td>
+                <td>12435</td>
+                <td class="del"><button>删除</button></td>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>太原</td>
+                <td>12435</td>
+                <td class="del"><button>删除</button></td>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>太原</td>
+                <td>12435</td>
+                <td class="del"><button>删除</button></td>
+            </tr>
+        </table>
+        <button class="btn">添加</button>
+    </div>
+</body>
+</html>
+<script src="table.js"></script>
